@@ -1,0 +1,115 @@
+/* Mobile Styles (up to 768px) */
+/* 1.4 Here i have implement @media which has a max width of 768px */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+}
+
+/* Desktop Styles (above 768px) */
+/* 1.4 Here i have implement @media which has a min width and greater */
+@media (min-width: 769px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+}
+
+
+/* Apply your fonts */
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* Global styles */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #57a51b; /* Hover state */
+}
+
+.btn:active {
+    background-color: #1d4e14; /* Clicked state */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+img{
+    height: 50%;
+    width: 50%;
+}
+
+.form {
+    padding: 10px 20px;
+    color: #070606;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#name{
+    background-color: white;
+    border-color: black;
+    color: black;
+    padding-left: 10px;
+    border-radius:15px;
+}
+
+#email{
+    background-color: white;
+    border-color: black;
+    color: black;
+    padding-left: 10px;
+    border-radius:15px;
+}

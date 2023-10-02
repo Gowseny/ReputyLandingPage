@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- 1.2 One page application -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- 1.5 links to google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+
+    <title>Reputy Landing Page</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <img src="./images/ReputyLogo.png" alt="Logo">
+            </div>
+
+            <div>
+                <img src="./images/ReputyPhoneImage.png" alt="Logo">
+            </div>
+        </header>
+        <main>
+
+            <section class="hero">
+
+                <h2>Land Better Jobs Faster</h2>
+                <p>by improving you soft skills</p>
+
+                <!-- Start of the form -->
+    <form action="/submit-form.php" method="post">
+        <!-- Text Input -->
+        <label class="form" for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br></br>
+
+        <label class="form" for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        </form>
+
+                <br></br>
+                <button id="registerBtn" class="btn">Register</button>
+                <br></br>
+                 <div>
+                    <p>Already Registered</p>
+                <button id="loginBtn" class="btn">Login</button>
+                </div>
+
+            </section>
+
+            <section>
+               
+               
+
+            </section>
+
+
+        </main>
+        <footer>
+            <p>Reputy IO</p>
+                <button id="aboutUs" class="btn">About</button>
+            
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
